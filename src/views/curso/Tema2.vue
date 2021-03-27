@@ -109,56 +109,46 @@
 
     p.mt-4 Los criterios de evaluación.
 
-    div.i-general.mt-5
-        div.div-gradient
-          div.c-card
+    .div.i-general.mt-5
+        .div.div-gradient
+          .div.c-card
             img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_1.svg' alt="",style="width:120px; display:block; margin:auto 0;")
             .h1i.text-center.mt-2 #[strong Hoteles de 1 estrella:]
             p.parrafos deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 178 puntos y los requisitos legales vigentes.
-        div.div-gradient
-          div.c-card
+        .div.div-gradient
+          .div.c-card
             img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_2.svg' alt="", style="width:120px; display:block; margin:auto 0;")
             .h1i.text-center.mt-2 #[strong Hoteles de 2 estrellas:]
             p.parrafos deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 181 puntos y los requisitos legales vigentes.
-        div.div-gradient
+        .div.div-gradient
           div.c-card
             img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_3.svg' alt="", style="width:120px; display:block; margin:auto 0;")
             .h1i.text-center.mt-2 #[strong Hoteles de 3 estrellas:]
             p.parrafos deberán cumplir el 80% de los requisitos definidos en la Norma NTSH006, rango 208 - 260 puntos y los requisitos legales vigentes.
-        div.div-gradient
-          div.c-card
+        .div.div-gradient
+          .div.c-card
             img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_4.svg' alt="", style="width:120px; display:block; margin:auto 0;")
             .h1i.text-center.mt-2 #[strong Hoteles de 4 estrellas:]
             p.parrafos deberán cumplir mínimo con el 85% de los requisitos definidos en la Norma NTSH006, rango 283 - 333 puntos y los requisitos legales vigentes
-        div.div-gradient
-          div.c-card
+        .div.div-gradient
+          .div.c-card
             img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_5.svg' alt="", style="width:120px; display:block; margin:auto 0;")
             .h1i.text-center.mt-2 #[strong Hoteles de 5 estrellas:]
             p.parrafos deberán cumplir mínimo con el 95% de los requisitos definidos en la Norma NTSH006, rango 349 - 337 puntos y los requisitos legales vigentes.
 
-    p.mt-4 2.3 Tipología
+    #t_2_3.pb-5.h3  2.3 Tipología
 
-    p Según la Norma sectorial colombiana NTSH006 se clasifican en: 
-        
+    p Según la Norma sectorial colombiana NTSH006 se clasifican en:
 
 
-    #t_2_3.pb-5.h2 tema 2.3
-    .pb-5(v-for="item of 15")
-
-    #t_2_4.pb-5.h2 tema 2.4
-    .pb-5(v-for="item of 15")
-
-    #t_2_5.pb-5.h2 tema 2.5
-    .pb-5(v-for="item of 15")
-
-    #t_2_6.pb-5.h2 tema 2.6
-    .pb-5(v-for="item of 15")
-
-    #t_2_7.pb-5.h2 tema 2.7
-    .pb-5(v-for="item of 15")
-
-    #t_2_8.pb-5.h2 tema 2.8
-    .pb-5(v-for="item of 15")
+        .div-con-fondo1-1
+        .row.justify-content-center.align-items-center
+            .col-auto
+              
+            img.img-responsive(src='@/assets/curso/images/pages/ilustraciones/9.png')
+           
+            p.parrafos.centrado-1  #[strong Albergue - refugio - hostal:] #[br] Establecimiento en que se presta el #[br] servicio de alojamiento preferentemente en habitaciones #[br]  semiprivadas o comunes, al igual que sus baños, y que puede #[br]  disponer además, de un recinto común equipado #[br] adecuadamente para que los huéspedes se preparen sus #[br] propios alimentos, sin perjuicio de proporcionar otros #[br] servicios complementarios.
+          
 
 </template>
 
