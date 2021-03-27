@@ -109,50 +109,37 @@
 
     p.mt-4 Los criterios de evaluación.
 
-    .jumbotron-5.mt-5
-        .row.justify-content-center.align-items-center
-              .jumbotron-6
-                      img.img-a(src='@/assets/curso/images/pages/ilustraciones/star_1.svg').img-icon
-                      p.text-center.mt-5
-                        | #[strong Hoteles de 1 estrella:]
-                      P.text-center deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 178 puntos y los requisitos legales vigentes.
-              .jumbotron-6
-                      img.img-a(src='@/assets/curso/images/pages/ilustraciones/star_2.svg').img-icon
-                      p.text-center.mt-5
-                        | #[strong Hoteles de 2 estrellas:]
-                      p.text-center deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 181 puntos y los requisitos legales vigentes.
-              .jumbotron-6
-                      img.img-a(src='@/assets/curso/images/pages/ilustraciones/star_3.svg').img-icon
-                      p.text-center.mt-5
-                        | #[strong Hoteles de 3 estrellas:]
-                      P.text-center deberán cumplir el 80% de los requisitos definidos en la Norma NTSH006, rango 208 - 260 puntos y los requisitos legales vigentes.
-              .jumbotron-6
-                      img.img-a(src='@/assets/curso/images/pages/ilustraciones/star_4.svg').img-icon
-                      p.text-center.mt-5
-                        | #[strong Hoteles de 4 estrellas:]
-                      P.text-center deberán cumplir mínimo con el 85% de los requisitos definidos en la Norma NTSH006, rango 283 - 333 puntos y los requisitos legales vigentes.
-              .jumbotron-6
-                      img.img-a(src='@/assets/curso/images/pages/ilustraciones/star_5.svg').img-icon
-                      p.text-center.mt-5
-                        | #[strong Hoteles de 5 estrellas:]
-                      p.text-center deberán cumplir mínimo con el 95% de los requisitos definidos en la Norma NTSH006, rango 349 - 337 puntos y los requisitos legales vigentes.   
+    div.i-general.mt-5
+        div.div-gradient
+          div.c-card
+            img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_1.svg' alt="",style="width:120px; display:block; margin:auto 0;")
+            .h1i.text-center.mt-2 #[strong Hoteles de 1 estrella:]
+            p.parrafos deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 178 puntos y los requisitos legales vigentes.
+        div.div-gradient
+          div.c-card
+            img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_2.svg' alt="", style="width:120px; display:block; margin:auto 0;")
+            .h1i.text-center.mt-2 #[strong Hoteles de 2 estrellas:]
+            p.parrafos deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 181 puntos y los requisitos legales vigentes.
+        div.div-gradient
+          div.c-card
+            img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_3.svg' alt="", style="width:120px; display:block; margin:auto 0;")
+            .h1i.text-center.mt-2 #[strong Hoteles de 3 estrellas:]
+            p.parrafos deberán cumplir el 80% de los requisitos definidos en la Norma NTSH006, rango 208 - 260 puntos y los requisitos legales vigentes.
+        div.div-gradient
+          div.c-card
+            img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_4.svg' alt="", style="width:120px; display:block; margin:auto 0;")
+            .h1i.text-center.mt-2 #[strong Hoteles de 4 estrellas:]
+            p.parrafos deberán cumplir mínimo con el 85% de los requisitos definidos en la Norma NTSH006, rango 283 - 333 puntos y los requisitos legales vigentes
+        div.div-gradient
+          div.c-card
+            img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_5.svg' alt="", style="width:120px; display:block; margin:auto 0;")
+            .h1i.text-center.mt-2 #[strong Hoteles de 5 estrellas:]
+            p.parrafos deberán cumplir mínimo con el 95% de los requisitos definidos en la Norma NTSH006, rango 349 - 337 puntos y los requisitos legales vigentes.
 
+    p.mt-4 2.3 Tipología
 
-
-
-
+    p Según la Norma sectorial colombiana NTSH006 se clasifican en: 
         
-
-
-
-
-
-
-
-
-
-
-
 
 
     #t_2_3.pb-5.h2 tema 2.3
