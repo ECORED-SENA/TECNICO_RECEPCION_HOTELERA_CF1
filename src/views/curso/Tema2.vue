@@ -121,7 +121,7 @@
             .h1i.text-center.mt-2 #[strong Hoteles de 2 estrellas:]
             p.parrafos deberán cumplir el 100% de los requisitos definidos en la Norma NTSH006, 181 puntos y los requisitos legales vigentes.
         .div.div-gradient
-          div.c-card
+          .div.c-card
             img.img-a.d-block.m-auto(src='@/assets/curso/images/pages/ilustraciones/star_3.svg' alt="", style="width:120px; display:block; margin:auto 0;")
             .h1i.text-center.mt-2 #[strong Hoteles de 3 estrellas:]
             p.parrafos deberán cumplir el 80% de los requisitos definidos en la Norma NTSH006, rango 208 - 260 puntos y los requisitos legales vigentes.
@@ -148,6 +148,7 @@
             img.img-responsive(src='@/assets/curso/images/pages/ilustraciones/9.png')
            
             p.parrafos.centrado-1  #[strong Albergue - refugio - hostal:] #[br] Establecimiento en que se presta el #[br] servicio de alojamiento preferentemente en habitaciones #[br]  semiprivadas o comunes, al igual que sus baños, y que puede #[br]  disponer además, de un recinto común equipado #[br] adecuadamente para que los huéspedes se preparen sus #[br] propios alimentos, sin perjuicio de proporcionar otros #[br] servicios complementarios.
+        
           
 
 </template>

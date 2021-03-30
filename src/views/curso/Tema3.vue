@@ -76,9 +76,11 @@
       .jumbotron-7.mt-5
         .row.justify-content-center.align-items-center
             .col-auto
-                img(src="@/assets/curso/images/pages/ilustraciones/29.png").img-float 
+                img.img-float-right(src='@/assets/curso/images/pages/ilustraciones/29.png' alt="", style="width:400px; display:block; margin:auto 0;")
             .col
                 p #[strong Son servicios que el sector hotelero presta a sus clientes, y que se caracterizan por extender la atención a los clientes más allá de la puesta a disposición de una habitación o un inmueble. #[br] Es decir, que el cliente puede solicitarlos durante su estancia y el hotel los presta como parte de los servicios.]
+
+    p Se consideran servicios complementarios los siguientes:
       .i-general-1
         .div.div-gradient-2
           .div.c-card-2
@@ -117,24 +119,26 @@
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_27.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float 
             p.mt-5 #[strong Locales comerciales.]
 
+    #t_3_3.pb-5.h2 3.3 Convenciones
+
+    p.mt-5 Las convenciones son las reglas o lineamientos simbólicos que se emplean en el diseño cartográfico para evitar malentendidos y confusiones en el momento de mostrar características geográficas o lugares. En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros; para facilitar el trabajo. 
+    p Se utiliza con símbolos, una letra o un par de letras que indican el estado de las habitaciones.
+
+        .row.justify-content-center.align-items-center
+            .col-auto
+                img.mt-5(src="@/assets/curso/images/pages/ilustraciones/infografia_2.png").img-float 
+    br
+    br
+    p.mt-4 Estas siglas no son universales, aunque sí se declinan por la simplicidad y la no-duplicación de siglas.
+
+    .jumbotron.mt-5
+        .row.justify-content-center.align-items-center
+              .col-auto
+                  img.img-a.my-3(src="@/assets/curso/images/pages/ilustraciones/hotel.svg").img-fluid
+              .col
+                  h4.mb-0 En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros.
 
 
-
-
-
-
-  
-    #t_3_3.pb-5.h2 tema 3.3
-    .pb-5(v-for="item of 15")
-
-    #t_3_4.pb-5.h2 tema 3.4
-    .pb-5(v-for="item of 15")
-
-    #t_3_5.pb-5.h2 tema 3.5
-    .pb-5(v-for="item of 15")
-
-    #t_3_6.pb-5.h2 tema 3.6
-    .pb-5(v-for="item of 15")
 
 </template>
 

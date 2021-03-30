@@ -35,7 +35,8 @@
 
     p Ley 300 de 1996.
     p Expide la ley general de turismo. Establece que los consejos distritales o municipales, determinarán las zonas de desarrollo turístico prioritario, así mismo autoriza a las corporaciones de aquellos municipios con menos de cien mil habitantes, que posean gran valor histórico, artístico y cultural, para que establezcan un peaje turístico, sin que la tarifa supere un salario mínimo diario legal por vehículo de uso público o comercial y medio salario mínimo diario legal por vehículo de uso particular.
-
+    br
+    br
     .div-con-fondo1
         .row.justify-content-center.align-items-center
             .col-auto
@@ -43,6 +44,9 @@
               img(src='@/assets/curso/images/pages/ilustraciones/3.png').img-float
               
               p.centrado #[strong Dicta disposiciones sobre el ecoturismo, etnoturismo, agroturismo, ecoturismo y #[br] turismo metropolitano; Turismo de interés social, mercadeo, promoción del turismo y cooperación turística internacional, incentivos tributarios para el fomento de la actividad turística, Fondo de promoción turística, Corporación Nacional de Turismo, Registro #[br] Nacional de Turismo, derechos y obligaciones de los usuarios, control y sanciones. #[br] Crea la división de policía de turismo dentro de la dirección de servicios especializados #[br]de la Policía Nacional. #[br] Prestadores de servicios turísticos en particular, establecimientos hoteleros o de #[br]hospedaje, agencias de viajes y de turismo, transportadores de pasajeros,#[br] establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores profesionales de congresos, ferias #[br] y convenciones, círculos metropolitanos turísticos.]
+
+    br
+          
 
     p.mt-5 Resolución 657 de 2005.
     p El Ministerio de Comercio, Industria y Turismo reglamenta la categorización por estrellas de los establecimientos hoteleros o de hospedaje que prestan sus servicios en Colombia, disponiendo que sólo podrán ser categorizados por estrellas los establecimientos hoteleros o de hospedaje que en los términos del artículo 78 de la Ley 300 de 1996, se consideren como hoteles, según la definición de la norma técnica sectorial NTSH 006, para lo cual deben obtener el certificado de calidad turística, expedido por un organismo certificador debidamente acreditado por la Superintendencia de Industria y Comercio, que cuente con visto bueno de la Dirección de Turismo del Ministerio de Comercio, Industria y Turismo, sin cuya certificación no podrán utilizar en su publicidad la categorización por estrellas, so pena de ser sancionados.
@@ -53,7 +57,12 @@
           .col-auto 
               img.img-a(src="@/assets/curso/images/pages/ilustraciones/4.png").img-fluid
   
-
+    .row.justify-content-center.align-items-center.mt-5
+            h5.mt-5 La revolución de la hotelería moderna
+                .col
+                 p El primer hotel de concepción moderna en 1807 fue el “Badische Hof”, construido en Alemania, comenzó con 18 columnas dóricas que se extendían a lo largo de tres pisos, lo que hizo que el comedor fuera el centro de atención y con algunos aspectos novedosos para la época como sala de lectura o biblioteca.
+                .col-auto 
+                  img.img-a.my-3(src="@/assets/curso/images/pages/ilustraciones/5.png").img-fluid
 </template>
 
 <script>
