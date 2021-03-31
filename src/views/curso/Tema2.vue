@@ -5,7 +5,7 @@
     
     p Establecimiento de alojamiento y hospedajes.
     p Son aquellos establecimientos cuya actividad principal es ofrecer alojamiento a personas, mediante precio, de forma habitual y profesional, con o sin otros servicios complementarios, mediante la denominación genérica de hotel, hostal, pensión o similar.
-
+    // ESTE VIDEO FALTA PRODUCIRLO 
     .video.mb-5.mt-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/YXT2HTjiB3Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -140,7 +140,7 @@
 
     p Según la Norma sectorial colombiana NTSH006 se clasifican en:
 
-    #carouselExampleIndicators.carousel.slide.mt-5(data-bs-ride='carousel')
+    #carouselExampleIndicators.carousel.slide.mt-3(data-bs-ride='carousel')
       .carousel-indicators
         button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
         button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
@@ -154,60 +154,57 @@
         .carousel-item.active
           figure 
             div.c-card-1.mt-5
-              img.img-text(src="@/assets/curso/images/pages/ilustraciones/9.png")
-            div.c-card-1
-              h1 Albergue - refugio - hostal:
-              p Establecimiento en que se presta el servicio de alojamiento preferentemente en habitacionessemiprivadas o comunes, al igual que sus baños, y que puededisponer además, de un recinto común equipado adecuadamente para que los huéspedes se preparen suspropios alimentos, sin perjuicio de proporcionar otros servicios complementarios. 
+                img.img-responsive(src="@/assets/curso/images/pages/ilustraciones/9.png") 
+                h1 Albergue - refugio - hostal:    
+                p Establecimiento en que se presta el servicio de alojamiento preferentemente en habitaciones semiprivadas o comunes, al igual que sus baños, y que puede disponer además, de un recinto común equipado adecuadamente para que los huéspedes se preparen sus propios alimentos, sin perjuicio de proporcionar otros servicios complementarios. 
         .carousel-item
           figure
             div.c-card-1.mt-5
-              img.img-text(src="@/assets/curso/images/pages/ilustraciones/10.png")
-            div.c-card-1 
+              img.img-responsive(src="@/assets/curso/images/pages/ilustraciones/10.png")
               h1 Apartahotel:
               p Establecimiento en que se presta el servicio de alojamiento en apartamentos independientes, de un edificio, que integren una unidad de administración y explotación, pudiendo ofrecer otros servicios complementarios. Cada apartamento está compuesto como mínimo de los siguientes ambientes: dormitorio con baño privado, sala de estar, cocina equipada y comedor.
         .carousel-item
           figure
             div.c-card-1.mt-5
-              img.img-text(src="@/assets/curso/images/pages/ilustraciones/11.png")
-            div.c-card-1 
+              img.img-responsive(src="@/assets/curso/images/pages/ilustraciones/11.png")
               h1 Viviendas turísticas:
               p Unidad habitacional destinada a brindar facilidades de alojamiento y permanencia de manera ocasional a una o más personas según su capacidad, que puede contar con servicio de limpieza y como mínimo con los siguientes recintos: dormitorio, sala-comedor, cocina, y baño.
         .carousel-item
           figure
             div.c-card-1.mt-5
-              img.img-text(src="@/assets/curso/images/pages/ilustraciones/12.png")
-            div.c-card-1 
+              img.img-responsive(src="@/assets/curso/images/pages/ilustraciones/12.png")
               h1 Alojamiento rural:
               p Establecimiento en que se presta el servicio de alojamiento en unidades habitacionales privadas, ubicado en áreas rurales y cuyo principal propósito es el desarrollo de actividades asociadas a su entorno natural y cultural. Ofrecen además como mínimo, servicios de alimentación bajo la modalidad de pensión completa, sin perjuicio de proporcionar otros servicios complementarios.
         .carousel-item
           figure
             div.c-card-1.mt-5
-              img.img-text(src="@/assets/curso/images/pages/ilustraciones/13.png")
-            div.c-card-1 
+              img.img-responsive(src="@/assets/curso/images/pages/ilustraciones/13.png")
               h1 Hotel:
               p Establecimiento en que se presta el servicio de alojamiento en habitaciones y otro tipo de unidades habitacionales en menor cantidad, privadas, en un edificio o parte independiente del mismo, constituyendo sus dependencias un todo homogéneo y con entrada de uso exclusivo. Disponen además como mínimo del servicio de recepción, servicio de desayuno y salón de estar para la permanencia de los huéspedes, sin perjuicio de proporcionar otros servicios complementarios.      
         .carousel-item
           figure
             div.c-card-1.mt-5
-              img.img-text(src="@/assets/curso/images/pages/ilustraciones/14.png")
-            div.c-card-1 
+              img.img-responsive(src="@/assets/curso/images/pages/ilustraciones/14.png")
               h1 Posadas turísticas:
               p Vivienda familiar en que se presta el servicio de alojamiento en unidades habitacionales preferiblemente de arquitectura autóctona cuyo principal propósito es promover la generación.
         .carousel-item
           figure
             div.c-card-1.mt-5
-              img.img-text(src="@/assets/curso/images/pages/ilustraciones/15.png")
-            div.c-card-1 
+              img.img-responsive(src="@/assets/curso/images/pages/ilustraciones/15.png")
               h1 Recinto de campamento o camping:
               p Establecimiento en que se presta el servicio de alojamiento en un terreno debidamente delimitado, asignándole un sitio a cada persona o grupo de personas que hacen vida al aire libre y que utilicen carpas, casas rodantes u otras instalaciones similares para pernoctar.
         .carousel-item
           figure
             div.c-card-1.mt-5
-              img.img-text(src="@/assets/curso/images/pages/ilustraciones/16.png")
-            div.c-card-1 
+              img.img-responsive(src="@/assets/curso/images/pages/ilustraciones/16.png")
               h1 Otros tipos de clasificación:
               p Hoteles de aeropuerto, hotel business class o negocios, hoteles de lujo, moteles, hotel de paso, hoteles-casino, hoteles-clubes, hoteles temáticos, hoteles vacacionales.
-
+      div.carousel-buttons    
+        button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+      div.carousel-buttons    
+        button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
 </template>
 
 <script>

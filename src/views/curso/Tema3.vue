@@ -75,49 +75,49 @@
 
       .jumbotron-7.mt-5
         .row.justify-content-center.align-items-center
-            .col-auto
-                img.img-float-right(src='@/assets/curso/images/pages/ilustraciones/29.png' alt="", style="width:400px; display:block; margin:auto 0;")
             .col
                 p #[strong Son servicios que el sector hotelero presta a sus clientes, y que se caracterizan por extender la atención a los clientes más allá de la puesta a disposición de una habitación o un inmueble. #[br] Es decir, que el cliente puede solicitarlos durante su estancia y el hotel los presta como parte de los servicios.]
+            .col-auto
+                img.img-float-right(src='@/assets/curso/images/pages/ilustraciones/29.png' alt="", style="width:400px; display:block; margin:auto 0;")
 
     p Se consideran servicios complementarios los siguientes:
       .i-general-1
-        .div.div-gradient-2
+        div.div-gradient-2
           .div.c-card-2
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_22.svg' alt="",style="width:100px; display:block; margin:auto 0;").img-float
-            p.mt-4 #[strong Recepción y atención permanente.]
-        .div.div-gradient-2 
+            p.mt-4.p2 #[strong Recepción y atención permanente.]
+        div.div-gradient-2 
           .div.c-card-2
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_24.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float 
-            p.mt-5 #[strong Limpieza periódica del alojamiento.]
-        .div.div-gradient-2
+            p.mt-5.p2 #[strong Limpieza periódica del alojamiento.]
+        div.div-gradient-2
           .div.c-card-2
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_23.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float 
-            p.mt-3 #[strong Recepción y atención permanente.]
-        .div.div-gradient-2
+            p.mt-3.p2 #[strong Recepción y atención permanente.]
+        div.div-gradient-2
           .div.c-card-2
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_26.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float 
-            p.mt-4 #[strong Limpieza periódica del alojamiento.]
-        .div.div-gradient-2
+            p.mt-4.p2 #[strong Limpieza periódica del alojamiento.]
+        div.div-gradient-2
           .div.c-card-2
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_25.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float 
-            p.mt-3 #[strong Cajilla de seguridad.]
-        .div.div-gradient-2
+            p.mt-3.p2 #[strong Cajilla de seguridad.]
+        div.div-gradient-2
           .div.c-card-1
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_29.svg' alt="",style="width:100px; display:block; margin:auto 0;").img-float 
-            p.mt-3 #[strong También se incluye los servicios de restaurante y room services]
-        .div.div-gradient-2
+            p.mt-3.p2 #[strong También se incluye los servicios de restaurante y room services]
+        div.div-gradient-2
           .div.c-card-2
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_28.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float
-            p.mt-3 #[strong Prestación de servicios adicionales como: avandería, custodia de maletas, prensa, etc]
-        .div.div-gradient-2
+            p.mt-3.p1 #[strong Prestación de servicios adicionales como: avandería, custodia de maletas, prensa, etc]
+        div.div-gradient-2
           .div.c-card-2
             img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_30.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float 
-            p.mt-4 #[strong Salones de eventos.]
-        .div.div-gradient-2
+            p.mt-4.p2 #[strong Salones de eventos.]
+        div.div-gradient-2
           .div.c-card-2
-            img.img-a(src='@/assets/curso/images/pages/ilustraciones/ico_27.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float 
-            p.mt-5 #[strong Locales comerciales.]
+            img.img-rp(src='@/assets/curso/images/pages/ilustraciones/ico_27.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float
+            p.mt-5.p2 #[strong Locales comerciales.]
 
     #t_3_3.pb-5.h2 3.3 Convenciones
 

@@ -5,7 +5,7 @@
     
     p La hotelería es una actividad económica que consiste en la prestación de servicios de alojamiento y en algunas ocasiones el servicio de alimentación, ligada a diferentes actividades usualmente el turismo.
     p Los establecimientos comerciales dedicados a estas reciben distintos nombres, según su categoría o finalidad, aunque las denominaciones oficiales dependen de la reglamentación local, que los clasifica con criterios urbanísticos, sanitarios, impositivos o de seguridad.
-
+      // ESTE VIDEO FALTA PRODUCIRLO 
       .video.mb-5.mt-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/YXT2HTjiB3Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -37,13 +37,12 @@
     p Expide la ley general de turismo. Establece que los consejos distritales o municipales, determinarán las zonas de desarrollo turístico prioritario, así mismo autoriza a las corporaciones de aquellos municipios con menos de cien mil habitantes, que posean gran valor histórico, artístico y cultural, para que establezcan un peaje turístico, sin que la tarifa supere un salario mínimo diario legal por vehículo de uso público o comercial y medio salario mínimo diario legal por vehículo de uso particular.
     br
     br
-    .div-con-fondo1
-        .row.justify-content-center.align-items-center
-            .col-auto
-              
-              img(src='@/assets/curso/images/pages/ilustraciones/3.png').img-float
-              
-              p.centrado #[strong Dicta disposiciones sobre el ecoturismo, etnoturismo, agroturismo, ecoturismo y #[br] turismo metropolitano; Turismo de interés social, mercadeo, promoción del turismo y cooperación turística internacional, incentivos tributarios para el fomento de la actividad turística, Fondo de promoción turística, Corporación Nacional de Turismo, Registro #[br] Nacional de Turismo, derechos y obligaciones de los usuarios, control y sanciones. #[br] Crea la división de policía de turismo dentro de la dirección de servicios especializados #[br]de la Policía Nacional. #[br] Prestadores de servicios turísticos en particular, establecimientos hoteleros o de #[br]hospedaje, agencias de viajes y de turismo, transportadores de pasajeros,#[br] establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores profesionales de congresos, ferias #[br] y convenciones, círculos metropolitanos turísticos.]
+    
+    div.i-general-tarjeta
+      div.div-tarjeta
+            img.img-responsive(src='@/assets/curso/images/pages/ilustraciones/3-1.png')
+
+            p.c-card-tarjeta #[strong Dicta disposiciones sobre el ecoturismo, etnoturismo, agroturismo, ecoturismo y turismo metropolitano; Turismo de interés social, mercadeo, promoción del turismo y cooperación turística internacional, incentivos tributarios para el fomento de la actividad turística, Fondo de promoción turística, Corporación Nacional de Turismo, Registro Nacional de Turismo, derechos y obligaciones de los usuarios, control y sanciones. Crea la división de policía de turismo dentro de la dirección de servicios especializados de la Policía Nacional Prestadores de servicios turísticos en particular, establecimientos hoteleros o de hospedaje, agencias de viajes y de turismo, transportadores de pasajeros, establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores profesionales de congresos, ferias y convenciones, círculos metropolitanos turísticos.]
 
     br
           
@@ -57,12 +56,52 @@
           .col-auto 
               img.img-a(src="@/assets/curso/images/pages/ilustraciones/4.png").img-fluid
   
-    .row.justify-content-center.align-items-center.mt-5
-            h5.mt-5 La revolución de la hotelería moderna
-                .col
-                 p El primer hotel de concepción moderna en 1807 fue el “Badische Hof”, construido en Alemania, comenzó con 18 columnas dóricas que se extendían a lo largo de tres pisos, lo que hizo que el comedor fuera el centro de atención y con algunos aspectos novedosos para la época como sala de lectura o biblioteca.
-                .col-auto 
-                  img.img-a.my-3(src="@/assets/curso/images/pages/ilustraciones/5.png").img-fluid
+    #carouselExampleIndicators.carousel.slide.mt-5(data-bs-ride='carousel')
+      .carousel-indicators
+        button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
+        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
+      .carousel-inner
+        .carousel-item.active
+          figure 
+            .row
+              .col-lg-4
+                h3 La revolución de la hotelería moderna
+                p El primer hotel de concepción moderna en 1807 fue el “Badische Hof”, construido en Alemania, comenzó con 18 columnas dóricas que se extendían a lo largo de tres pisos, lo que hizo que el comedor fuera el centro de atención y con algunos aspectos novedosos para la época como sala de lectura o biblioteca.
+              .col-lg-8
+                img.img-box(src="@/assets/curso/images/pages/ilustraciones/5.png")
+        .carousel-item
+          figure
+            .row
+              .col-lg-4
+                h3 La revolución de la hotelería moderna
+                p Con la aparición del ferrocarril, también surgen los hoteles “término” para dar alojamiento a los viajeros al lado de las estaciones.
+              .col-lg-8
+                img.img-box.my-auto(src="@/assets/curso/images/pages/ilustraciones/6.png")
+        .carousel-item
+          figure
+            .row
+              .col-lg-4
+                h3 La revolución de la hotelería moderna
+                p A mediados de 1800 aparecen los hoteles de propiedad corporativa.  
+                p El famoso Ritz, y su cadena de hoteles se inauguró en 1880 y el modelo de negocio se extiende de Europa a Estados Unidos tras 1900
+              .col-lg-8
+                img.img-box(src="@/assets/curso/images/pages/ilustraciones/7.png")
+        .carousel-item
+          figure
+            .row
+              .col-lg-4
+                h3 La revolución de la hotelería moderna
+                p Francia fue el gran referente en la industria hotelera desde mediados del siglo XIX hasta que a finales del siglo XX, Estados Unidos tomó el relevo con sus grandes cadenas hoteleras y gigantes establecimientos. 
+              .col-lg-8
+                img.img-box(src="@/assets/curso/images/pages/ilustraciones/8.png")
+      div.carousel-buttons    
+        button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+      div.carousel-buttons    
+        button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
 </template>
 
 <script>

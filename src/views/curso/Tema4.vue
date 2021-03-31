@@ -19,7 +19,7 @@
         .row.justify-content-center.align-items-centee
               .col
                   h4.mb-0-md-5 Aquí encontraras los tres ejemplos de modelos de estructura de organigrama. 
-                    a(href="@/assets/curso/images/pages/ilustraciones", target="_blank") <span class="fa fa-download" aria-hidden="true"></span> Descargar
+                    a.p2(href="@/assets/curso/images/pages/ilustraciones", target="_blank") <span class="fa fa-download" aria-hidden="true"></span> Descargar
 
     p.mt-5 Gráficamente en general se presenta de la siguiente forma:
 
@@ -74,7 +74,7 @@
                     .row.justify-content-center.align-items-centee
                           .col
                               h4.mb-0-md-5 Aquí encontraran el organigrama módelo.
-                                a.mt-3(href="@/assets/curso/images/pages/ilustraciones/organigrama.pdf", target="_blank") <span class="fa fa-download" aria-hidden="true"></span> Descargar
+                                a.mt-3.p2(href="@/assets/curso/images/pages/ilustraciones/organigrama.pdf", target="_blank") <span class="fa fa-download" aria-hidden="true"></span> Descargar
 
 
 
