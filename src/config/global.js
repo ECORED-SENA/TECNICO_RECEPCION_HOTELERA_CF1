@@ -152,31 +152,6 @@ export const creditos = {
       regional: 'Regional Tolima',
     },
     {
-      nombre: 'xxxxxxxxxxx',
-      cargo: 'Experta temática',
-      centro: 'Centro Agropecuario de Buga',
-      regional: 'Regional valle',
-    },
-    {
-      nombre: 'xxxxxxxxxx',
-      cargo: 'Experto temático',
-      centro: 'Centro de Gestión Industrial',
-      regional: 'Regional Distrito Capital',
-    },
-
-    {
-      nombre: 'xxxxxxxxxxxxx',
-      cargo: 'Diseñador instruciona',
-      centro: 'Centro para la Industria y la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'xxxxxxxxxx',
-      cargo: 'Diseñador instrucional',
-      centro: 'Centro de Diseño y Metrología',
-      regional: 'Regional Distrito Capital',
-    },
-    {
       nombre: 'Martha Isabel Martínez Vargas',
       cargo: 'Revisora de estilo',
       centro: 'Centro Industrial Del Diseño Y La Manufactura',
@@ -197,7 +172,7 @@ export const creditos = {
       regional: 'Regional Tolima',
     },
     {
-      nombre: ['xxxxxxxxxxxxxxxxx'],
+      nombre: 'xxxxxxxxxxxxxxxxx',
       cargo: 'Diseño web y Producción Audiovisual',
       centro: '',
       regional: '',
