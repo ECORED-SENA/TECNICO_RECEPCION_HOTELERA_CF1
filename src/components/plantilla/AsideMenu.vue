@@ -59,21 +59,25 @@ aside.aside-menu(:class="{'aside-menu--open': menuOpen}")
 import { menuPrincipal } from '../../config/global'
 export default {
   name: 'AsideMenu',
-  props: {
-    menuOpen: {
-      type: Boolean,
-      default: false,
-    },
-  },
   data: () => ({
     menuData: menuPrincipal && menuPrincipal.menu,
     subMenuData: menuPrincipal && menuPrincipal.subMenu,
   }),
+  computed: {
+    menuOpen() {
+      return this.$store.getters.isMenuOpen
+    },
+  },
   watch: {
     $route(to) {
       if (to.name === 'inicio') {
-        this.$emit('update:menuOpen', false)
+        this.toggleMenu(false)
       }
+    },
+  },
+  methods: {
+    toggleMenu(newVal) {
+      this.$store.dispatch('toggleMenu', newVal)
     },
   },
 }
@@ -88,7 +92,7 @@ export default {
   background-color: $color-sistema-g
   transition: flex 0.5s ease-in-out, width 0.5s ease-in-out
   overflow-x: hidden
-  z-index: 10000
+  z-index: 100001
 
   a
     color: $color-sistema-a
@@ -121,6 +125,8 @@ export default {
   &__menu
     overflow-y: auto
     flex-grow: 1
+    list-style: none
+    padding-left: 0
 
     &__item
       &--active

@@ -1,5 +1,4 @@
 export const global = {
-  programaFormacion: 'Servicio de recepción hotelera',
   componenteFormativo: 'Introducción a la hotelería',
   descripcionCurso:
     'A través de la historia, la industria hotelera ha sido motivo de interés, en los últimos años el sector de servicios y especialmente el subsector turístico, ha reflejado una tendencia positiva de crecimiento a nivel mundial, la especialización y la competitividad de las empresas del sector  ha ido  presentando un continuo ascenso y los hoteles, como la mayoría de las organizaciones turísticas, se enfrentan  a un entorno continuamente cambiante y altamente competitivo.',
@@ -146,10 +145,15 @@ export const creditos = {
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Tania Yaneth Ramírez Benítez',
-      cargo: 'Soporte organizacional',
-      centro: 'Centro de comercio y servicios',
-      regional: 'Regional Tolima',
+      nombre: 'Sandra Isabel Suarez Delgado',
+      cargo: 'Experta',
+      centro: 'Centro de Servicios y Gestión Empresarial',
+      regional: 'Regional Antioquia',
+    },
+    {
+      nombre: 'Gloria Esperanza Ortiz Russi',
+      cargo: 'Diseñador Instruccional ',
+      regional: 'Regional Distrito Capital',
     },
     {
       nombre: 'Martha Isabel Martínez Vargas',
@@ -172,10 +176,28 @@ export const creditos = {
       regional: 'Regional Tolima',
     },
     {
-      nombre: 'xxxxxxxxxxxxxxxxx',
+      nombre: 'Camilo Andrés Villamizar Lizcano',
       cargo: 'Diseño web y Producción Audiovisual',
-      centro: '',
-      regional: '',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
+      regional: 'Regional Santander',
+    },
+    {
+      nombre: 'Victor Raúl Cárdenas Cáceres',
+      cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
+      regional: 'Regional Santander',
+    },
+    {
+      nombre: 'Wilson Andres Arenales Cáceres',
+      cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
+      regional: 'Regional Santander',
+    },
+    {
+      nombre: 'Yuly Andrea Rey Quiñonez ',
+      cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
+      regional: 'Regional Santander',
     },
     {
       nombre: 'Gustavo Adolfo Marún Suárez',
@@ -411,8 +433,45 @@ export const complementario = [
   },
   {
     texto:
+      'Norma sectorial NTSH 005. Manejo de valores e ingresos relacionados con la operación del establecimiento.',
+    tipo: 'Documento Word',
+    link: 'https://www.google.com/',
+  },
+  {
+    texto:
       'Norma sectorial NTSH 006. Clasificación de establecimientos de alojamiento y hospedaje. Categorización por estrellas de hoteles. Requisitos normativos.',
     tipo: 'Documento Pdf',
     link: 'https://www.google.com/',
+  },
+  {
+    texto:
+      'Campustraining (2019). Historia del hotelería: qué es y cómo surgió la hostelería.',
+    tipo: 'Blog',
+    link:
+      'https://www.campustraining.es/noticias/historia-hoteleria/#:~:text=La%20historia%20de%20la%20industria,caballos%20a%20cambio%20de%20dinero.',
+  },
+  {
+    texto:
+      'Ministerio de Desarrollo económico. (1996) Ley General de turismo. Normatividad turismo de Colombia',
+    tipo: 'Documento',
+    link:
+      'https://www.alcaldiabogota.gov.co/sisjur/listados/tematica2.jsp?subtema=20482',
+  },
+  {
+    texto:
+      'Ministerio de Comercio, Industria y Turismo, Sena, Cotelco (2003) Norma Técnica Sectorial Colombiana.',
+    tipo: 'Documento',
+    link:
+      'https://www.mincit.gov.co/minturismo/calidad-y-desarrollo-sostenible/calidad-turistica/normas-tecnicas-sectoriales',
+  },
+  {
+    texto: 'Mar Torres (2011) Gobernantas Blog ',
+    tipo: 'Blog',
+    link: 'https://gobernantas.wordpress.com/tag/estado-habitaciones/',
+  },
+  {
+    texto: 'Estructura organizacional',
+    tipo: 'Blog',
+    link: 'https://concepto.de/estructura-organizacional/#ixzz6ZZj9WyUW',
   },
 ]
