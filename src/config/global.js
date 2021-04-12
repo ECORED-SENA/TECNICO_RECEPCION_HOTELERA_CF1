@@ -205,7 +205,14 @@ export const creditos = {
       centro: 'Centro Industrial del Diseño y la Manufactura',
       regional: 'Regional Santander',
     },
+    {
+      nombre: 'Camilo Andres Bolaño Rey',
+      cargo: 'Desarrollo Front-End',
+      centro: 'Centro Industrial del Diseño y la Manufactura',
+      regional: 'Regional Santander',
+    },
   ],
+
   gestoresRepositorio: [
     {
       nombre: 'Milady Tatiana Villamil Castellanos',
