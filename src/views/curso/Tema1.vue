@@ -110,8 +110,6 @@
                 i.fas.fa-file-download
     
 
-    // ESTE IMAGEN ESTA PENDIENTE 
-
 
     p.mt-5 Resolución 657 de 2005.
     p El Ministerio de Comercio, Industria y Turismo reglamenta la categorización por estrellas de los establecimientos hoteleros o de hospedaje que prestan sus servicios en Colombia, disponiendo que sólo podrán ser categorizados por estrellas los establecimientos hoteleros o de hospedaje que en los términos del artículo 78 de la Ley 300 de 1996, se consideren como hoteles, según la definición de la norma técnica sectorial NTSH 006, para lo cual deben obtener el certificado de calidad turística, expedido por un organismo certificador debidamente acreditado por la Superintendencia de Industria y Comercio, que cuente con visto bueno de la Dirección de Turismo del Ministerio de Comercio, Industria y Turismo, sin cuya certificación no podrán utilizar en su publicidad la categorización por estrellas, so pena de ser sancionados.
@@ -132,10 +130,11 @@
                   .h5.mb-0 Descargue todas las normas aquí
                   p.text-small  
                 .col-sm-auto
-                  a.boton.boton--b(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0300_1996.html" target="_blank")
+                  a.boton.boton--b(:href="obtenerLink('/downloads/normas.zip')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
-    
+
+
 
 
 
