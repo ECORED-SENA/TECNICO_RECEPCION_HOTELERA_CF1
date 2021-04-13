@@ -94,7 +94,7 @@
               .h5.mb-0 Aquí encontraran el organigrama módelo.
               p.text-small  
             .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/organigrama.pdf')" target="_blank" type="application/pdf")
+              a.boton.boton--b(href="/downloads/archivo.pdf" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
