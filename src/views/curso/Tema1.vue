@@ -132,9 +132,9 @@
                   .h5.mb-0 Descargue todas las normas aquí
                   p.text-small  
                 .col-sm-auto
-                  a.boton.boton--b(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0300_1996.html" target="_blank")
+                  a.anexo.mb-4(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0300_1996.html" target="_blank")
                     span Descargar
-                    i.fas.fa-file-download
+                    .anexo__icono
 
 
 
