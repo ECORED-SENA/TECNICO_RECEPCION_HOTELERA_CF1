@@ -92,8 +92,10 @@
      
               p Crea la división de policía de turismo dentro de la dirección de servicios especializados de la Policía Nacional.
      
-              p Prestadores de servicios turísticos en particular, <b> establecimientos hoteleros o de hospedaje, agencias de viajes y de turismo </b>,transportadores de pasajeros, establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores profesionales de congresos, ferias y convenciones, círculos metropolitanos turísticos.
+                p Prestadores de servicios turísticos en particular, <b> establecimientos hoteleros o de hospedaje, agencias de viajes y de turismo </b>,transportadores de pasajeros, establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores 
+                
 
+               
     .tarjeta.tarjeta--amarilla.p-3.my-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -117,14 +119,23 @@
     #t_1_3.h4.mt-5 1.3 Normas técnicas sectoriales hoteleras para establecimientos de alojamiento y hospedaje.
 
     
-      img.mt-5(src='@/assets/curso/images/pages/ilustraciones/4.png' alt='4' usemap='#mapa')
-      map#mapa
-        area(shape='CIRCLE' coords='672",63,68' href='https://drive.google.com/file/d/17DqrvDEyaTTkfI0cF_soZHI7Rk8H1Uuq/view?usp=sharing' target="_blank")
-        area(shape='CIRCLE' coords='736",231,68' href='https://drive.google.com/file/d/11fHPs9g7x1VKJKHGuizvnqJvPBXt7jSL/view?usp=sharing' target="_blank")
-        area(shape='CIRCLE' coords='667",403,68' href='https://drive.google.com/file/d/16BP1ko-L7eMym5kZL90qafyyRoEubBFV/view?usp=sharing' target="_blank")
-        area(shape='CIRCLE' coords='335",398,68' href='https://drive.google.com/file/d/1wIxp8Le91PsRoCsGiZAg8Zddg0-YY_rB/view?usp=sharing' target="_blank")
-        area(shape='CIRCLE' coords='283",231,68' href='https://drive.google.com/file/d/1wIxp8Le91PsRoCsGiZAg8Zddg0-YY_rB/view?usp=sharing' target="_blank")
-        area(shape='CIRCLE' coords='338",64,68' href='https://drive.google.com/file/d/1BI2kRSchzYnhuzaAv3Kvk_D_KJ2XqtJp/view?usp=sharing' target="_blank")
+      .row.justify-content-center.align-items-center.mt-5
+                  .col-auto 
+                      img.img-a(src="@/assets/curso/images/pages/ilustraciones/4.png").img-fluid
+
+    .tarjeta.tarjeta--amarilla.p-3.my-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  .h5.mb-0 Descargue todas las normas aquí
+                  p.text-small  
+                .col-sm-auto
+                  a.boton.boton--b(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0300_1996.html" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
 
 
       
