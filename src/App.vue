@@ -11,28 +11,15 @@
 </template>
 
 <script>
-import { global } from './config/global'
-import AsideMenu from './components/plantilla/AsideMenu'
-import Header from './components/plantilla/Header'
-import BarraAvance from './components/plantilla/BarraAvance'
 export default {
   name: 'App',
-  components: {
-    AsideMenu,
-    Header,
-    BarraAvance,
-  },
   data: () => ({
     menuOpen: false,
-    globalData: global,
   }),
   computed: {
     menuState() {
       return this.$store.getters.isMenuOpen
     },
-  },
-  created() {
-    document.title = this.globalData.componenteFormativo
   },
 }
 </script>
@@ -50,4 +37,12 @@ export default {
   &--barra-avance-open
     .curso-main-container
       padding-bottom: 80px !important
+body
+  padding-right: 0px !important
+.modal
+  z-index: 9999999 !important
+.modal-backdrop
+  z-index: 999999 !important
+.boton span, .boton--sm span, .boton i, .boton--sm i
+    color: #ffffff !important
 </style>
