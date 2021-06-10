@@ -1,1 +1,1 @@
-module.exports = 'Servicio de recepción hotelera'
+module.exports = 'Introducción a la hotelería'

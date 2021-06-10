@@ -96,7 +96,7 @@
       .col-auto
         img(src='@/assets/curso/tema1/3.svg' alt='Normativa de formalización')
 
-    p.mt-5 Además, crea la división de Policía de turismo dentro de la dirección de servicios especializados de la Policía Nacional, prestadores de servicios turísticos en particular, establecimientos hoteleros o de hospedaje, agencias de viajes y de turismo, transportadores de pasajeros, establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores profesionales de congresos, ferias y convenciones, círculos metropolitanos turísticos.
+    p.mt-5 Además, crea la división de Policía de Turismo, dentro de la Dirección de Protección y Servicios Especiales de la Policía Nacional, prestadores de servicios turísticos en particular, establecimientos hoteleros o de hospedaje, agencias de viajes y de turismo, transportadores de pasajeros, establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores profesionales de congresos, ferias, convenciones y círculos metropolitanos turísticos.
 
     .p-4.mt-5(style="background-color:#FFF1DB;")
       .row
@@ -114,7 +114,7 @@
       .col-4.text-center
         img(src='@/assets/curso/tema1/5.svg' alt='Avatar' style="width:200px;display:inline;")
       .col-8
-        p Por su parte, la resolución 657 de 2005 del El Ministerio de Comercio, Industria y Turismo reglamenta la categorización por estrellas de los establecimientos hoteleros o de hospedaje que prestan sus servicios en Colombia, disponiendo que sólo podrán ser categorizados por estrellas los establecimientos hoteleros o de hospedaje que en los términos del artículo 78 de la Ley 300 de 1996, se consideren como hoteles, según la definición de la norma técnica sectorial NTSH 006, para lo cual deben obtener el certificado de calidad turística, expedido por un organismo certificador debidamente acreditado por la Superintendencia de Industria y Comercio, que cuente con visto bueno de la Dirección de Turismo del Ministerio de Comercio, Industria y Turismo, sin cuya certificación no podrán utilizar en su publicidad la categorización por estrellas, so pena de ser sancionados.
+        p Por su parte, la resolución 657 de 2005 del Ministerio de Comercio, Industria y Turismo, reglamenta la categorización por estrellas de los establecimientos hoteleros o de hospedaje que prestan sus servicios en Colombia, disponiendo que sólo podrán ser categorizados por estrellas los establecimientos hoteleros o de hospedaje que en los términos del artículo 78 de la Ley 300 de 1996, se consideren como hoteles, según la definición de la norma técnica sectorial NTSH 006, para lo cual deben obtener el certificado de calidad turística, expedido por un organismo certificador debidamente acreditado por la Superintendencia de Industria y Comercio, que cuente con visto bueno de la Dirección de Turismo del Ministerio de Comercio, Industria y Turismo, sin cuya certificación no podrán utilizar en su publicidad la categorización por estrellas, so pena de ser sancionados.
 
     .mt-5.col-9(style="background-color:#F3F9FF;")
       img(src='@/assets/curso/tema1/6.svg' alt='Avatar' style="width:20px")
@@ -136,7 +136,7 @@
           p.mt-2 Establecimientos de alojamiento y hospedaje. norma de competencia laboral. #[br] Realización de actividades básicas para la prestación del servicio
 
         .col-3.text-center
-          a(href="/downloads/normas/Documento Anexo 1 ntsh001.doc" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
+          a(:href="obtenerLink('/downloads/normas/Documento Anexo 1 ntsh001.doc')" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
 
     .p-4.mt-3(style="background-color:#FFF1DB;")
       .row
@@ -148,7 +148,7 @@
           p.mt-2 Establecimientos de alojamiento y hospedaje. norma de competencia laboral. #[br] Información a clientes, atención de sugerencias y reclamaciones de acuerdo a políticas de servicio
 
         .col-3.text-center
-          a(href="/downloads/normas/Documento Anexo 2 ntsh002.doc" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
+          a(:href="obtenerLink('/downloads/normas/Documento Anexo 2 ntsh002.doc')" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
 
     .p-4.mt-3(style="background-color:#FFF1DB;")
       .row
@@ -160,7 +160,7 @@
           p.mt-2 Establecimientos de alojamiento y hospedaje. norma de competencia laboral. Prestación de servicio de recepción y reservas conforme a manuales existentes
 
         .col-3.text-center
-          a(href="/downloads/normas/Documento Anexo 3 ntsh003.doc" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
+          a(:href="obtenerLink('/downloads/normas/Documento Anexo 3 ntsh003.doc')" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
 
     .p-4.mt-3(style="background-color:#FFF1DB;")
       .row
@@ -172,7 +172,7 @@
           p.mt-2 Establecimientos de alojamiento y hospedaje. norma de competencia laboral.  Atención del área de conserjería de acuerdo al manual de procedimientos
 
         .col-3.text-center
-          a(href="/downloads/normas/Documento Anexo 4 ntsh004.doc" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
+          a(:href="obtenerLink('/downloads/normas/Documento Anexo 4 ntsh004.doc')" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
 
     .p-4.mt-3(style="background-color:#FFF1DB;")
       .row
@@ -184,7 +184,7 @@
           p.mt-2 Establecimientos de alojamiento y hospedaje. Norma de competencia laboral. Manejo de valores e ingresos relacionados con la operación del establecimiento
 
         .col-3.text-center
-          a(href="/downloads/normas/Documento Anexo 5 ntsh005.doc" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
+          a(:href="obtenerLink('/downloads/normas/Documento Anexo 5 ntsh005.doc')" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
 
     .p-4.mt-3(style="background-color:#FFF1DB;")
       .row
@@ -196,7 +196,7 @@
           p.mt-2 Clasificación de establecimientos de alojamiento y hospedaje. Categorización por estrellas de hoteles, requisitos normativos
 
         .col-3.text-center
-          a(href="/downloads/normas/Documento Anexo 6 ntsh006.pdf" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
+          a(:href="obtenerLink('/downloads/normas/Documento Anexo 6 ntsh006.pdf')" target="_blank").btn.btn-primario.mt-4 Descargar #[i.fas.fa-link]
 
 </template>
 

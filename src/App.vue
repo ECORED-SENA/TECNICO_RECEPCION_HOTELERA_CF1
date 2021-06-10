@@ -45,4 +45,6 @@ body
   z-index: 999999 !important
 .boton span, .boton--sm span, .boton i, .boton--sm i
     color: #ffffff !important
+.banner-principal__img
+  padding: 0 !important
 </style>

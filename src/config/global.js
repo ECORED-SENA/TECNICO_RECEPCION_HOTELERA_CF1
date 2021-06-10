@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Introducción a la hotelería.',
     descripcionCurso:
       'En los últimos años el sector de servicios y especialmente el subsector turístico, ha reflejado una tendencia positiva de crecimiento a nivel mundial, la especialización y la competitividad de las empresas del sector ha ido presentando un continuo ascenso y los hoteles, como la mayoría de las organizaciones turísticas, se enfrentan a un entorno continuamente cambiante y altamente competitivo.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -129,7 +129,7 @@ export default {
         cargo: 'Responsable Equipo',
       },
       {
-        nombre: 'Martha Isabel Martínez Vargas',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Revisora de estilo',
       },
       {
@@ -262,7 +262,7 @@ export default {
     {
       termino: 'Check in',
       significado:
-        '(Registro y acomodación). Proceso por medio del cual, se registra el ingreso de uno o varios huéspedes al flujo de información de un establecimiento de alojamiento y hospedaje, en el que intervienen por parte del establecimiento un recepcionista y uno o varios huéspedes, se asigna la habitación y se concreta la forma de pago. <br><br> El objetivo será siempre mantener la información actualizada de los huéspedes que están alojados, así se presenten cambios de habitación de taifas, ingresos o salidas de huéspedes registrados como acompañantes o incluso manejo especial de esta información a petición de quién ocupa la habitación.',
+        '(Registro y acomodación). Proceso por medio del cual, se registra el ingreso de uno o varios huéspedes al flujo de información de un establecimiento de alojamiento y hospedaje, en el que intervienen por parte del establecimiento un recepcionista y uno o varios huéspedes, se asigna la habitación y se concreta la forma de pago. <br><br> El objetivo será siempre mantener la información actualizada de los huéspedes que están alojados, así se presenten cambios de habitación de tarifas, ingresos o salidas de huéspedes registrados como acompañantes o incluso manejo especial de esta información a petición de quién ocupa la habitación.',
     },
     {
       termino: 'Check out',
@@ -331,7 +331,7 @@ export default {
     {
       termino: 'Spa',
       significado:
-        'Infraestructura habilitada para aprovechar las propiedades de elementos naturales reconocidos como beneficiosas para la salud tales como emanaciones de agua mineral o volcánica, las características del mar, las condiciones climáticas. En algunos casos es utilizado complementariamente en tratamientos de salud.',
+        'Infraestructura habilitada para aprovechar las propiedades de elementos naturales reconocidos como beneficiosos para la salud, tales como, emanaciones de agua mineral o volcánica, las características del mar, las condiciones climáticas. En algunos casos es utilizado complementariamente en tratamientos de salud.',
     },
   ],
   complementario: [

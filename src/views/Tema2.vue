@@ -8,11 +8,11 @@
         .h3 2
       .h3 Establecimiento de alojamiento y hospedajes.
 
-    p.mt-4 En el siguiente video podras estudiar qué es un establecimiento de alojamiento o de hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
+    p.mt-4 En el siguiente video podrás aprender qué es un establecimiento de alojamiento o de hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
 
     figure.mt-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fAg0gdOyEt4?list=PLkc5n6npRWkiIFaCZXm2QCVL6kOK4AtmF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .tarjeta.text-white.p-5.mt-5(style="background: linear-gradient(rgb(228 136 1), rgb(255 207 137))")
       .row.justify-content-around.align-items-center

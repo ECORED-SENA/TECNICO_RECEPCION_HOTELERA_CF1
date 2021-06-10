@@ -8,12 +8,14 @@
         .h3 3
       .h3 Habitaciones hoteleras
 
-    p.mt-4 #[strong Dentro de la Norma técnica sectorial colombiana  NTSH006] se deben considerar los siguientes aspectos en las habitaciones: seguridad, dimensiones en donde se incluye el baño y closet, muebles, conexiones eléctricas, ropa de cama, piso, ventanas, iluminación, baños y sus componentes entre otros ducha, toallas, presión del agua, esto define la clasificación que se le da a cada una de las habitaciones y permite que la siguiente tipología:
+    p.mt-4 #[strong Dentro de la Norma técnica sectorial colombiana  NTSH006], se deben considerar los siguientes aspectos en las habitaciones: seguridad, dimensiones en donde se incluye el baño y closet, muebles, conexiones eléctricas, ropa de cama, piso, ventanas, iluminación, baños y sus componentes, entre otros, ducha, toallas y presión del agua, esto define la clasificación que se le da a cada una de las habitaciones y permite la siguiente tipología:
 
     .titulo-segundo.mt-5
       #t_3_1.h4 3.1  Tipo de habitaciones y acomodación
 
-    .row.mt-5
+    p.mt-4 A continuación, estudiaremos cuáles son los diferentes tipos de habitaciones y acomodación.
+
+    .row.mt-4
       .col-4
         .p-3(style="background-color:#F3F9FF;border-radius:15px;min-height:400px;")
           img.mt-1(src='@/assets/curso/tema3/1.svg' alt='Avatar' style="border-top-left-radius: 10px;border-top-right-radius: 10px;")
@@ -47,19 +49,21 @@
 
     .row.mt-3
       .col-4
-        .p-3(style="background-color:#F3F9FF;border-radius:15px;min-height:500px;")
+        .p-3(style="background-color:#F3F9FF;border-radius:15px;min-height:520px;")
           img.mt-1(src='@/assets/curso/tema3/7.svg' alt='Avatar' style="border-top-left-radius: 10px;border-top-right-radius: 10px;")
           p.mt-4 #[strong Suite:] un salón o sala de estar conectada a uno o más dormitorios. Acomodación: de acuerdo al número de camas puede ser asignada a una persona o más.
 
       .col-4.mb-3
-        .p-3(style="background-color:#F3F9FF;border-radius:15px;min-height:500px;")
+        .p-3(style="background-color:#F3F9FF;border-radius:15px;min-height:520px;")
           img.mt-1(src='@/assets/curso/tema3/8.svg' alt='Avatar' style="border-top-left-radius: 10px;border-top-right-radius: 10px;")
           p.mt-4 #[strong Junior suite:] una habitación individual con una cama y una sala de estar. A veces, el área para dormir está en un dormitorio separado del salón o la sala de estar. Acomodación: por su tamaño generalmente puede ser ocupada por dos máximo tres personas.
 
       .col-4.mb-3
-        .p-3(style="background-color:#F3F9FF;border-radius:15px;min-height:500px;")
+        .p-3(style="background-color:#F3F9FF;border-radius:15px;min-height:520px;")
           img.mt-1(src='@/assets/curso/tema3/9.svg' alt='Avatar' style="border-top-left-radius: 10px;border-top-right-radius: 10px;")
-          p.mt-4 #[strong Otros tipos de habitaciones pueden incluir:] Habitaciones comunicadas: habitaciones con puertas de entrada individuales desde el exterior y una puerta de conexión entre ellas. Los huéspedes pueden moverse entre habitaciones sin pasar por el pasillo. Habitaciones contiguas: habitaciones con una pared común, pero sin puerta de conexión. Habitaciones adyacentes: habitaciones cercanas, tal vez al otro lado del pasillo.
+          p.mt-4 #[strong Otros tipos de habitaciones pueden incluir:] Habitaciones comunicadas: habitaciones con puertas de entrada individuales desde el exterior y una puerta de conexión entre ellas. Los huéspedes pueden moverse entre habitaciones sin pasar por el pasillo. 
+          p #[strong Habitaciones contiguas:] habitaciones con una pared común, pero sin puerta de conexión. 
+          p #[strong Habitaciones adyacentes:] habitaciones cercanas, tal vez al otro lado del pasillo.
 
     .titulo-segundo.mt-5
       #t_3_2.h4 3.2 Servicios complementarios
@@ -158,7 +162,7 @@
     .titulo-segundo.mt-5
       #t_3_3.h4 3.3 Convenciones
 
-    p.mt-4 Las convenciones son las reglas o lineamientos simbólicos que se emplean en el diseño cartográfico para evitar malentendidos y confusiones en el momento de mostrar características geográficas o lugares. En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas entre otros; para facilitar el trabajo. 
+    p.mt-4 Las convenciones son las reglas o lineamientos simbólicos que se emplean en el diseño cartográfico para evitar malentendidos y confusiones en el momento de mostrar características geográficas o lugares. En los hoteles se trabaja con una gran cantidad de siglas y símbolos como instrumento para conocer el estado de las habitaciones y las tarifas, entre otros, para facilitar el trabajo.  
 
     p.mt-3 #[strong Se utiliza con símbolos, una letra o un par de letras que indican el estado de las habitaciones.]
 
