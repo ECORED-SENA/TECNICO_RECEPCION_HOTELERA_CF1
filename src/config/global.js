@@ -126,59 +126,37 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable Equipo',
-      },
-      {
-        nombre: 'Jhana Johanna Bustillo Ardila',
-        cargo: 'Revisora de estilo',
-      },
-      {
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Sandra Isabel Suarez Delgado',
-        cargo: 'Experta temática',
-        centro: 'Centro de Servicios y Gestión Empresarial',
-        regional: 'Regional Antioquia',
+        nombre: 'Leidy Carolina Arias Aguirre',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de diseño y Metrología',
       },
       {
-        nombre: 'Gloria Esperanza Ortiz Russi',
-        cargo: 'Diseñador Instruccional',
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Isabel Suarez Delgado',
+        cargo: 'Instructor',
+        centro: 'Centro de Servicios y Gestión Empresarial',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisora de estilo',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-      },
-      {
-        nombre: ['Carlos Julián Ramírez Benítez', 'Yuly Andrea Rey Quiñonez'],
-        cargo: 'Diseño web',
-      },
-      {
-        nombre: [
-          'Zuleidy Maria Ruiz Torres',
-          'Wilson Andrés Arenales Caceres',
-          'Gilberto Junior Rodriguez Rodriguez',
-          'Maria Carolina Tamayo',
-          'Victor Cardenas',
-          'Camilo Villamizar',
-          'Carlos Eduardo Garavito',
-          'John Archiniegas',
-        ],
-        cargo: 'Producción Audiovisual',
-      },
-      {
-        nombre: [
-          'Luis Jesús Pérez Madariaga',
-          'Camilo Andrés Bolaño Rey ',
-          'Gustavo Adolfo Marun Suarez',
-        ],
-        cargo: 'Desarrollo front-end',
-      },
-      {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -188,11 +166,29 @@ export default {
         centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
+      {
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo front-end',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Diseño web',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación de recursos',
+        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
