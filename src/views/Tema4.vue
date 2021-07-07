@@ -5,8 +5,8 @@
   
     .titulo-principal
       .titulo-principal__numero
-        .h3 4
-      .h3 Estructura organizacional
+        .h1 4
+      .h1.mt-4 Estructura organizacional
 
     .row.mt-5
       .col-auto

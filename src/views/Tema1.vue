@@ -5,8 +5,8 @@
   
     .titulo-principal
       .titulo-principal__numero
-        .h3 1
-      .h3 Hotelería
+        .h1 1
+      .h1.mt-4 Hotelería
 
     .text-center
       img(src='@/assets/curso/tema1/1.svg' alt='Hotelería')

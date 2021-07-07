@@ -5,8 +5,8 @@
   
     .titulo-principal
       .titulo-principal__numero
-        .h3 2
-      .h3 Establecimiento de alojamiento y hospedajes.
+        .h1 2
+      .h1.mt-4 Establecimiento de alojamiento y hospedajes.
 
     p.mt-4 En el siguiente video podrás aprender qué es un establecimiento de alojamiento o de hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
 

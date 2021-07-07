@@ -5,8 +5,8 @@
   
     .titulo-principal
       .titulo-principal__numero
-        .h3 3
-      .h3 Habitaciones hoteleras
+        .h1 3
+      .h1.mt-4 Habitaciones hoteleras
 
     p.mt-4 #[strong Dentro de la Norma técnica sectorial colombiana  NTSH006], se deben considerar los siguientes aspectos en las habitaciones: seguridad, dimensiones en donde se incluye el baño y closet, muebles, conexiones eléctricas, ropa de cama, piso, ventanas, iluminación, baños y sus componentes, entre otros, ducha, toallas y presión del agua, esto define la clasificación que se le da a cada una de las habitaciones y permite la siguiente tipología:
 

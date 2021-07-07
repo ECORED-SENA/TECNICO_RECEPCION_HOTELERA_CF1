@@ -5,7 +5,7 @@
   
     .titulo-principal
       .titulo-principal__numero
-        .h3
+        .h1
           i.fas.fa-info
       .h3 Introducción
     
