@@ -130,8 +130,8 @@ export default {
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Leidy Carolina Arias Aguirre',
@@ -141,8 +141,8 @@ export default {
       {
         nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Revisora Metodológica y Pedagógica',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
+        centro:
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
       },
       {
         nombre: 'Sandra Isabel Suarez Delgado',
@@ -152,48 +152,57 @@ export default {
       {
         nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Revisora de estilo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
+        nombre: 'Leyson Fabian Castaño Pérez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
-      },
-      {
-        nombre: 'Luis Jesús Pérez Madariaga',
-        cargo: 'Desarrollo front-end',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: '',
         cargo: 'Diseño web',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: '',
         cargo: 'Producción audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Rafael Augusto Mantilla López',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
