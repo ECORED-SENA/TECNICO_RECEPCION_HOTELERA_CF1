@@ -60,4 +60,6 @@ body
   color: inherit !important
 .banner-principal__componente h1
   color: inherit !important
+.banner-principal__img
+  padding: 0px !important
 </style>
