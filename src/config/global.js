@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Introducción a la hotelería.',
+    componenteFormativo: 'Introducción a la industria hotelera',
     descripcionCurso:
       'En los últimos años el sector de servicios y especialmente el subsector turístico, ha reflejado una tendencia positiva de crecimiento a nivel mundial, la especialización y la competitividad de las empresas del sector ha ido presentando un continuo ascenso y los hoteles, como la mayoría de las organizaciones turísticas, se enfrentan a un entorno continuamente cambiante y altamente competitivo.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),

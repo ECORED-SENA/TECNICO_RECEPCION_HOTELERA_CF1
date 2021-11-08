@@ -1,1 +1,1 @@
-module.exports = 'Introducción a la hotelería'
+module.exports = 'Introducción a la industria hotelera'
